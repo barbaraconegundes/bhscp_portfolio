@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bárbara Helen | Digital Insights Dashboard</title>
+
+    <meta name="description"
+        content="Portfólio de Bárbara Helen: Especialista em Digital Insights, Social Listening e Marketing Digital.">
+    <meta property="og:title" content="Bárbara Helen | Digital Insights Dashboard">
+    <meta property="og:description" content="Análise estratégica de dados e inteligência digital para grandes marcas.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://seughp.github.io/">
+    <meta property="og:image" content="assets/preview-share.jpg">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="scroll-progress-container">
+        <div id="scroll-progress-bar"></div>
+    </div>
+
+    <div class="top-controls">
+        <button id="theme-toggle" class="control-btn" title="Mudar para modo claro"><i class="fas fa-sun"></i></button>
+    </div>
+
+    <div class="wrapper">
+        <aside>
+            <div class="card profile-section">
+                <div class="avatar-glow"><i class="fas fa-satellite-dish"></i></div>
+                <h1>Bárbara Helen S. C. Pereira</h1>
+                <p class="sub-headline">Digital Insights | Social Listening | Community Manager | Marketing Digital | CX
+                    | Comunicação</p>
+                <div class="contact-list" style="margin-top:30px; text-align:left;">
+                    <a href="mailto:barbarahscp@gmail.com" target="_blank"><i class="fas fa-envelope"></i>
+                        barbarahscp@gmail.com</a>
+                    <a href="https://wa.me/5511941544590" target="_blank"><i class="fab fa-whatsapp"></i> 11 9 4154
+                        4590</a>
+                    <a href="https://www.linkedin.com/in/b%C3%A1rbara-helen-pereira-603aa3199/" target="_blank"><i
+                            class="fab fa-linkedin"></i> LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Matriz de Competências</h2>
+                <div style="margin-bottom: 20px;">
+                    <span class="matrix-title">Social Intelligence</span>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Social Listening, Benchmark, Análise de
+                        Competitividade, Métricas e Monitoramento.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span class="matrix-title">Analytics & Dados</span>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Digital Insights, KPIs, Questionários de
+                        Pesquisa, <strong>Excel Avançado</strong>.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span class="matrix-title">Conteúdo & Copy</span>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Escrita Criativa, Redação, SEO, Criação de
+                        Scripts, <strong>Figma</strong>, <strong>Adobe Photoshop</strong>.</p>
+                </div>
+                <div style="margin-bottom: 20px;">
+                    <span class="matrix-title">Tecnologia & IA</span>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);"><strong>IA no Google Cloud</strong>, IA
+                        aplicada à Automação de Conteúdo, Trello, Outlook.</p>
+                </div>
+                <div>
+                    <span class="matrix-title">Customer Experience</span>
+                    <p style="font-size: 0.85rem; color: var(--text-muted);">Customer Success, Retenção, Resolução de
+                        Problemas, Etiqueta Profissional.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2>Educação & Idiomas</h2>
+                <p style="font-weight: 800;">CST Marketing Digital</p>
+                <p style="font-style: italic; font-size: 0.9rem;">Cruzeiro do Sul</p>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Previsão: 12/2026</p>
+                <p style="font-size: 0.8rem; margin-top: 5px; color: var(--neon);">Ênfase em Digital Insights e Gestão
+                    Estratégica.</p>
+                <hr class="divider">
+                <p><strong>Inglês:</strong> Avançado (B2)</p>
+                <p><strong>Português:</strong> Nativo</p>
+            </div>
+
+            <div class="card">
+                <h2>Certificações & Soft Skills</h2>
+                <ul style="list-style: none; padding: 0; font-size: 0.85rem;">
+                    <li style="margin-bottom: 15px;"><strong>SEO e Marketing de Conteúdo</strong><br><small>Santander
+                            Open Academy (2025)</small></li>
+                    <li style="margin-bottom: 15px;"><strong>IA no Google Cloud</strong><br><small>Fundação FAT / Google
+                            (2025)</small></li>
+                </ul>
+                <hr class="divider">
+                <ul style="list-style: none; padding: 0; font-size: 0.85rem; color: var(--text-muted);">
+                    <li>• Pensamento Estratégico e Crítico</li>
+                    <li>• Comunicação Interpessoal</li>
+                    <li>• Adaptabilidade e Resiliência</li>
+                    <li>• Gestão de Tempo e Projetos</li>
+                </ul>
+            </div>
+        </aside>
+
+        <main>
+            <div class="card">
+                <div
+                    style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;">
+                    <h2 style="margin-bottom: 0;"><i class="fas fa-id-card"></i> Perfil Profissional</h2>
+                    <button id="sentiment-analysis-btn" class="sentiment-btn" title="Extrair dados principais do texto">
+                        <i class="fas fa-filter"></i> Extrair Insights
+                    </button>
+                </div>
+
+                <p id="profile-text" style="color: var(--text-muted); font-size: 0.95rem;">
+                    Atuo na interseção entre Customer Experience (CX) e Marketing Digital, utilizando Social Listening
+                    para decodificar comportamentos e prever tendências. Domino a extração de dados não estruturados em
+                    plataformas como Buzzmonitor e a visualização de inteligência no Looker Studio. Meu foco é
+                    transformar grandes volumes de interações em KPIs acionáveis, garantindo a otimização da jornada do
+                    cliente e impulsionando decisões Data-Driven.
+                </p>
+
+                <h3
+                    style="color: var(--neon); margin-top: 30px; margin-bottom: 15px; font-size: 1rem; display: flex; align-items: center; gap: 10px;">
+                    <i class="fas fa-layer-group"></i> Tech Stack</h3>
+                <div class="tech-stack-horizontal">
+                    <div class="tech-item"><i class="fas fa-chart-line"></i><span>Buzzmonitor</span></div>
+                    <div class="tech-item"><i class="fas fa-chart-pie"></i><span>Looker Studio</span></div>
+                    <div class="tech-item"><i class="fas fa-headset"></i><span>Icustomer</span></div>
+                    <div class="tech-item"><i class="fab fa-figma"></i><span>Figma</span></div>
+                    <div class="tech-item"><i class="fab fa-google"></i><span>Google Cloud</span></div>
+                    <div class="tech-item"><i class="fas fa-file-excel"></i><span>Excel</span></div>
+                    <div class="tech-item"><i class="fas fa-palette"></i><span>Adobe</span></div>
+                </div>
+
+                <div id="nlp-legend"
+                    style="display: none; margin-top: 20px; font-size: 0.8rem; gap: 15px; flex-wrap: wrap;">
+                    <span style="color: #00ff88; font-weight: 600;"><i class="fas fa-circle"
+                            style="font-size: 0.6rem; margin-right: 4px;"></i> Estratégia</span>
+                    <span style="color: #00d2ff; font-weight: 600;"><i class="fas fa-circle"
+                            style="font-size: 0.6rem; margin-right: 4px;"></i> Ferramentas</span>
+                    <span style="color: #bc6ff1; font-weight: 600;"><i class="fas fa-circle"
+                            style="font-size: 0.6rem; margin-right: 4px;"></i> Resultados / Dados</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-history"></i> Experiência Profissional</h2>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot" data-target="exp-rai" title="Expandir/Recolher"></div>
+                        <div class="exp-header" data-target="exp-rai" title="Expandir/Recolher">
+                            <div>
+                                <h3 style="color:var(--neon)">Grupo RAI</h3>
+                                <p style="font-size:0.9rem; font-weight:600; color: var(--text-main);">Analista de
+                                    Digital Insights & Community Manager</p>
+                            </div>
+                            <small style="color:var(--text-muted)">07/2025 – 04/2026</small>
+                        </div>
+                        <div id="exp-rai" class="exp-content">
+                            <ul>
+                                <li>Liderou o monitoramento estratégico e análise de sentimentos, aplicando Inteligência
+                                    Artificial para otimização de fluxos e análise de Social Listening.</li>
+                                <li>Elaborou relatórios de Benchmark e análise de competitividade para grandes marcas,
+                                    convertendo dados em planos de ação táticos.</li>
+                                <li>Implementou fluxos de automação para suporte à criação de conteúdos baseados em
+                                    Digital Insights.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot" data-target="exp-plusoft" title="Expandir/Recolher"></div>
+                        <div class="exp-header" data-target="exp-plusoft" title="Expandir/Recolher">
+                            <div>
+                                <h3 style="color:var(--neon)">Plusoft</h3>
+                                <p style="font-size:0.9rem; font-weight:600; color: var(--text-main);">Analista de
+                                    Mídias Sociais</p>
+                            </div>
+                            <small style="color:var(--text-muted)">2024 – 2025</small>
+                        </div>
+                        <div id="exp-plusoft" class="exp-content collapsed">
+                            <ul>
+                                <li>Atuação focada em Escrita Criativa e Resolução de Problemas, utilizando Pensamento
+                                    Estratégico para aumentar o engajamento orgânico.</li>
+                                <li>Desenvolvimento de Criação de Scripts e análise de métricas de desempenho,
+                                    colaborando ativamente em squads multidisciplinares (Trabalho em Equipe).</li>
+                                <li>Padronização de atendimento estratégico e gestão de parcerias com influenciadores.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot" data-target="exp-atento" title="Expandir/Recolher"></div>
+                        <div class="exp-header" data-target="exp-atento" title="Expandir/Recolher">
+                            <div>
+                                <h3 style="color:var(--neon)">Atento</h3>
+                                <p style="font-size:0.9rem; font-weight:600; color: var(--text-main);">Especialista em
+                                    Atendimento Técnico</p>
+                            </div>
+                            <small style="color:var(--text-muted)">2019 – 2021</small>
+                        </div>
+                        <div id="exp-atento" class="exp-content collapsed">
+                            <ul>
+                                <li>Foco em Sucesso do Cliente (Customer Success) e Retenção através da resolução de
+                                    causas raiz de problemas complexos sob pressão.</li>
+                                <li>Aplicação de Etiqueta Profissional e comunicação empática para sustentação de KPIs
+                                    de satisfação (NPS/CSAT).</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card"
+                style="text-align: center; border-color: var(--neon); background: rgba(188, 111, 241, 0.05);">
+                <h2 style="justify-content: center;"><i class="fas fa-flask"></i> Intelligence Lab</h2>
+                <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+                    Explore exemplos práticos da minha atuação analítica. Acesse a página dedicada para interagir com
+                    dashboards de Social Listening e Benchmarks de mercado.
+                </p>
+                <a href="lab.html" class="lab-btn">
+                    Acessar Dashboards <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-project-diagram"></i> Projetos e Atuação</h2>
+                <div style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;">
+                    <div>
+                        <strong style="color:var(--neon)">Curadoria de Conteúdo</strong>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-top:5px;">Adaptação de tom de voz
+                            para TikTok/Instagram e elaboração de apresentações estruturadas (PowerPoint/Word).</p>
+                    </div>
+                    <div>
+                        <strong style="color:var(--neon)">Monitoramento de Crise</strong>
+                        <p style="font-size:0.85rem; color:var(--text-muted); margin-top:5px;">Gestão de sentimento e
+                            mitigação de riscos reputacionais via Icustomer e Social Listening.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2><i class="fas fa-globe-americas"></i> Voluntariado</h2>
+                <strong style="color:var(--neon)">Portal Universo Imortal</strong>
+                <p style="font-size: 0.9rem; font-weight: 600; margin-top: 5px;">Tradutora Voluntária <span
+                        style="color: var(--text-muted); font-weight: 400; font-size: 0.8rem; margin-left: 10px;">2024</span>
+                </p>
+                <p style="font-size:0.85rem; color:var(--text-muted); margin-top:8px;">Aplicação de competências de
+                    Inglês Avançado, Revisão de Texto e Digitação técnica para tradução literária e de matérias
+                    especializadas.</p>
+            </div>
+        </main>
+    </div>
+
+    <div id="sticky-bar" class="sticky-bar">
+        <button id="toggle-bar-btn" class="toggle-bar-btn" title="Minimizar barra">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+        <div class="bar-content">
+            <a href="https://www.linkedin.com/in/b%C3%A1rbara-helen-pereira-603aa3199/" target="_blank" class="bar-icon"
+                title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:barbarahscp@gmail.com" target="_blank" class="bar-icon" title="E-mail"><i
+                    class="fas fa-envelope"></i></a>
+            <a href="https://wa.me/5511941544590" target="_blank" class="bar-icon" title="WhatsApp"><i
+                    class="fab fa-whatsapp"></i></a>
+            <a href="cv_barbara_scp.pdf" download class="bar-btn-cv" title="Download CV"><i
+                    class="fas fa-file-download"></i> CV</a>
+        </div>
+    </div>
+
+    <script src="actions.js"></script>
+</body>
+
+</html>
